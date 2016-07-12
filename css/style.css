@@ -1,0 +1,109 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Kalam', cursive;
+}
+nav ul a,
+nav .brand-logo {
+  color: #FF3D3D; 
+}
+
+element.style {
+margin-top: 18%;
+}
+
+nav .brand-logo {
+  font-family: 'Lobster', cursive;
+}
+
+nav .nav-wrapper {
+position: relative;
+height: 100%;
+padding: 0 90px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .header{
+    margin-top: 18%;
+  }
+
+  .header-sottotitolo{
+    margin-top: 6%;
+    font-size: 1.5em}
+
+#REGISTRAZIONE{margin-top: 8%; }
+
+.COLL-servizio {margin-top: 8%; }
+
+.class="v
+
+#SERVIZIO p{
+
+      font-size: 0.9em;
+    }
+.terza_sezione {
+  margin-top: 30%;
+}   
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.btn-registrazione{
+  width: 100%;
+}
+.r_icona{
+  font-size: 7em;
+  margin-top: 40px;
+}
+
+.telefono3 {
+  font-size: 7em;
+  margin-top: 70px;
+}
+footer.page-footer {
+  margin: 0;
+}
